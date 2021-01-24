@@ -1,0 +1,41 @@
+$primary: #e2b616;
+
+$theme-colors: (
+  "primary": #e2b616,
+  "bg": #2e2e2e,
+);
+
+$logo-font-family: "Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif";
+
+.navbar-brand {
+  font: $logo-font-family;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em;
+  background-color: $primary;
+}
+
+a.nav-link {
+  color: whitesmoke !important;
+}
+nav {
+  position: fixed !important;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+}
+
+.active {
+  background-color: #2e2e2e !important;
+  border-bottom: 2px solid $primary;
+  border-radius: 0% !important;
+}
+.loginBtn {
+  background-color: #e2b616 !important;
+}
+
+.right {
+  margin-right: 10em;
+}
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

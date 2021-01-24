@@ -1,0 +1,22 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+
+.container {
+  margin-top: 5em;
+  justify-content: center;
+  min-height: 98vh;
+}
+
+.reviewBox {
+  padding: 2em;
+  margin: 3% auto;
+  width: 80%;
+  display: table;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
